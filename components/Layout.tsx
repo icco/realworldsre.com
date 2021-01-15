@@ -1,13 +1,13 @@
-import React, { ReactNode } from 'react'
-import Link from 'next/link'
-import Head from 'next/head'
+import React, { ReactNode } from "react";
+import Link from "next/link";
+import Head from "next/head";
 
 type Props = {
-  children?: ReactNode
-  title?: string
-}
+  children?: ReactNode;
+  title?: string;
+};
 
-const Layout = ({ children, title = 'This is the default title' }: Props) => (
+const Layout = ({ children, title = "This is the default title" }: Props) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -18,9 +18,11 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     {children}
 
     <footer className="bg-near-black white-80 pv5 pv6-l ph4">
-      <p className="f6"><span className="dib mr4 mr5-ns">©2021 Nat Welch</span></p>
+      <p className="f6">
+        <span className="dib mr4 mr5-ns">©2021 Nat Welch</span>
+      </p>
     </footer>
   </div>
-)
+);
 
-export default Layout
+export default Layout;
