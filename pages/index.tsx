@@ -3,21 +3,21 @@ import Layout from "components/Layout";
 const IndexPage = () => (
   <Layout title="Real-World SRE">
     <article>
-      <header class="bg-gold sans-serif">
-        <div class="mw9 center pa4 pt5-ns ph7-l">
-          <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
-            <span class="bg-black-90 lh-copy white pa1 tracked-tight">
+      <header className="bg-gold sans-serif">
+        <div className="mw9 center pa4 pt5-ns ph7-l">
+          <h3 className="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+            <span className="bg-black-90 lh-copy white pa1 tracked-tight">
               Real-World SRE
             </span>
           </h3>
-          <h4 class="f3 fw1 georgia i">
+          <h4 className="f3 fw1 georgia i">
             The Survival Guide for Responding to a System Outage and Maximizing
             Uptime
           </h4>
-          <h5 class="f6 ttu tracked black-80">By Nat Welch</h5>
+          <h5 className="f6 ttu tracked black-80">By Nat Welch</h5>
         </div>
       </header>
-      <div class="pa4 ph7-l georgia mw9-l center">
+      <div className="pa4 ph7-l georgia mw9-l center">
         <p>
           <strong>Buy now!</strong>
           <ul className="list pl0 measure">
