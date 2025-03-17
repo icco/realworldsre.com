@@ -20,41 +20,41 @@ const IndexPage = () => (
       <div className="pa4 ph7-l georgia mw9-l center">
         <p>
           <strong>Buy now!</strong>
-          <ul className="list pl0 measure">
-            <li className="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30">
-              <a
-                className="f4 fw6 db dark-blue no-underline underline-hover"
-                href="https://amzn.to/3ifOLBi"
-              >
-                Amazon
-              </a>
-            </li>
-            <li className="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30">
-              <a
-                className="f4 fw6 db dark-blue no-underline underline-hover"
-                href="https://www.packtpub.com/product/real-world-sre/9781788628884"
-              >
-                Packt
-              </a>
-            </li>
-            <li className="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30">
-              <a
-                className="f4 fw6 db dark-blue no-underline underline-hover"
-                href="https://www.oreilly.com/library/view/real-world-sre/9781788628884/"
-              >
-                O'Reilly
-              </a>
-            </li>
-            <li className="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30">
-              <a
-                className="f4 fw6 db dark-blue no-underline underline-hover"
-                href="https://github.com/PacktPublishing/Real-World-SRE"
-              >
-                Source Code
-              </a>
-            </li>
-          </ul>
         </p>
+        <ul className="list pl0 measure">
+          <li className="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30">
+            <a
+              className="f4 fw6 db dark-blue no-underline underline-hover"
+              href="https://amzn.to/3ifOLBi"
+            >
+              Amazon
+            </a>
+          </li>
+          <li className="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30">
+            <a
+              className="f4 fw6 db dark-blue no-underline underline-hover"
+              href="https://www.packtpub.com/product/real-world-sre/9781788628884"
+            >
+              Packt
+            </a>
+          </li>
+          <li className="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30">
+            <a
+              className="f4 fw6 db dark-blue no-underline underline-hover"
+              href="https://www.oreilly.com/library/view/real-world-sre/9781788628884/"
+            >
+              O'Reilly
+            </a>
+          </li>
+          <li className="lh-copy pv3 ba bl-0 bt-0 br-0 b--dotted b--black-30">
+            <a
+              className="f4 fw6 db dark-blue no-underline underline-hover"
+              href="https://github.com/PacktPublishing/Real-World-SRE"
+            >
+              Source Code
+            </a>
+          </li>
+        </ul>
 
         <p>
           Real-World SRE is the go-to survival guide for the software developer
