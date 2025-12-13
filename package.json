@@ -2,17 +2,17 @@
   "name": "realworldsre.com",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
+    "dev": "next --webpack",
+    "build": "next build --webpack",
     "start": "next start -p $PORT",
     "type-check": "tsc",
     "lint": "prettier --write ."
   },
   "dependencies": {
-    "next": "^15.5.9",
+    "next": "^16.0.10",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tachyons": "4.12.0"
+    "tachyons": "^4.12.0"
   },
   "devDependencies": {
     "@types/node": "^25.0.1",
