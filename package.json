@@ -10,13 +10,13 @@
   },
   "dependencies": {
     "next": "^16.1.6",
-    "react": "^19.0.0",
+    "react": "^19.2.4",
     "react-dom": "^19.0.0",
     "tachyons": "^4.12.0"
   },
   "devDependencies": {
     "@types/node": "^25.2.2",
-    "@types/react": "^19.0.12",
+    "@types/react": "^19.2.13",
     "@types/react-dom": "^19.1.5",
     "prettier": "^3.8.1",
     "typescript": "^5.7.3"
