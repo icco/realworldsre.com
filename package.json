@@ -9,7 +9,7 @@
     "lint": "prettier --write ."
   },
   "dependencies": {
-    "next": "^16.2.1",
+    "next": "^16.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tachyons": "^4.12.0"
