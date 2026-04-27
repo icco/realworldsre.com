@@ -22,6 +22,10 @@ RUN yarn run build
 
 # Production image - copy only what's needed
 FROM base AS runner
+
+LABEL org.opencontainers.image.source=https://github.com/icco/realworldsre.com
+LABEL org.opencontainers.image.description="Marketing site for book"
+LABEL org.opencontainers.image.licenses=MIT
 WORKDIR /app
 
 ENV NODE_ENV=production
