@@ -1,4 +1,5 @@
 FROM node:26-alpine AS base
+RUN npm install -g pnpm
 
 # Install dependencies only when needed
 FROM base AS deps
@@ -7,8 +8,8 @@ WORKDIR /app
 # Install git for any git-based dependencies
 RUN apk add --no-cache git
 
-COPY package.json pnpm-lock.yaml ./
-RUN corepack enable && pnpm install --frozen-lockfile
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+RUN pnpm install --frozen-lockfile --ignore-scripts
 
 # Build the application
 FROM base AS builder
@@ -18,7 +19,7 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 ENV NODE_ENV=production
-RUN pnpm run build
+RUN ./node_modules/.bin/next build --webpack
 
 # Production image - copy only what's needed
 FROM base AS runner
