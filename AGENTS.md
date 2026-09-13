@@ -17,7 +17,7 @@ Use pnpm:
 
 ## Architecture & Conventions
 
-- Pages and layout under `pages/`.
+- Pages and route entrypoints are under `pages/`; the shared layout is under `components/`.
 - Styling uses Tachyons functional CSS classes.
 - PR titles and commits must follow Conventional Commits with lowercase subjects.
 - Ensure `npm run type-check` passes before submitting PRs.
