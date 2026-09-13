@@ -8,12 +8,12 @@ Website for the "Real World SRE" book built with Next.js, React, and Tachyons CS
 
 ## Commands
 
-Use npm:
-- `npm run dev` — Run development server
-- `npm run build` — Build production application
-- `npm run start` — Run production server
-- `npm run type-check` — Run TypeScript type checking (`tsc`)
-- `npm run lint` — Format code with Prettier
+Use pnpm:
+- `pnpm run dev` — Run development server
+- `pnpm run build` — Build production application
+- `pnpm run start` — Run production server
+- `pnpm run type-check` — Run TypeScript type checking (`tsc`)
+- `pnpm run lint` — Format code with Prettier
 
 ## Architecture & Conventions
 
