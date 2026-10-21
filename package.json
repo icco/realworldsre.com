@@ -13,9 +13,9 @@
     "lint": "prettier --write ."
   },
   "dependencies": {
-    "next": "^16.4.0",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0",
+    "next": "^16.4.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "tachyons": "^4.12.0"
   },
   "devDependencies": {
