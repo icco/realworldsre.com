@@ -31,6 +31,9 @@ WORKDIR /app
 
 ENV NODE_ENV=production
 ENV PORT=8080
+ENV NODE_OPTIONS=--use-openssl-ca
+
+RUN apk upgrade --no-cache ca-certificates ca-certificates-bundle && apk add --no-cache ca-certificates
 
 RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
