@@ -13,6 +13,7 @@
     "lint": "prettier --write ."
   },
   "dependencies": {
+    "@opentelemetry/api": "~1.9.1",
     "@vercel/otel": "^2.3.0",
     "next": "^16.4.5",
     "react": "^19.3.1",
