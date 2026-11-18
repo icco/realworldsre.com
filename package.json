@@ -13,9 +13,9 @@
     "lint": "prettier --write ."
   },
   "dependencies": {
-    "@opentelemetry/api": "~1.9.1",
+    "@opentelemetry/api": "~1.10.0",
     "@vercel/otel": "^2.3.0",
-    "next": "^16.4.5",
+    "next": "^16.4.6",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "tachyons": "^4.12.0"
@@ -24,7 +24,7 @@
     "@types/node": "^26.6.6",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "prettier": "^3.9.10",
+    "prettier": "^3.10.0",
     "typescript": "^7.0.2"
   },
   "license": "MIT"
